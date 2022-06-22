@@ -1,0 +1,465 @@
+/* .cars-page { */
+/* height: 8000px; */
+/* } */
+/* .home-page { */
+/* border: 1px #5CB85F solid !important; */
+/* height: 8000px; */
+/* position: relative;
+    overflow: hidden; */
+/* } */
+
+/* === Page Home === */
+
+/* Navigation Bar */
+.navbar {
+  /* border: 1px #5CB85F solid !important; */
+  background-color: #f1f3ff;
+  font-family: 'Helvetica';
+  font-style: normal;
+  padding: 0 7.5vw;
+  position: fixed !important;
+  width: 100%;
+  z-index: 99999999;
+}
+.container-nav {
+  /* border: 1px #5CB85F solid !important; */
+  margin: 1vh 0;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: black !important;
+  margin-right: 15px;
+}
+.button-register {
+  border: 1px #5cb85f solid !important;
+  background-color: #5cb85f !important;
+  align-items: center;
+  font-size: 14px !important;
+  color: #f1f3ff;
+}
+/* Navigation Bar End */
+
+/* Main Section */
+.main {
+  /* border: 1px solid black; */
+  background-color: #f1f3ff;
+  width: 100%;
+  padding-top: 50px;
+}
+.main-sect {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.box-desc {
+  /* border: 1px solid black; */
+  width: 45vw;
+  padding-top: 70px;
+  margin-left: 96px;
+}
+.title-usaha {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+.desc-usaha {
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  width: 35vw;
+  font-style: normal;
+}
+.button-sewa {
+  border: 1px solid #5cb85f !important;
+  align-self: center;
+  font-weight: bold;
+  font-size: 14px !important;
+  line-height: 20px;
+  margin-bottom: 50px;
+  background-color: #5cb85f !important;
+}
+.box-car {
+  /* border: 1px solid black; */
+  width: 49vw;
+  position: relative;
+  overflow: hidden;
+  left: 12.3px;
+}
+.car-image {
+  padding-right: 30px;
+  position: relative;
+  top: 15px;
+  z-index: 999;
+  width: 600px;
+}
+.background-blue {
+  position: absolute;
+  top: 143px;
+  right: 0px;
+  width: 44.2vw;
+  height: 200px;
+  background-color: #0d28a6;
+  border-radius: 60px 0px 0px 0px;
+}
+/* Main Section End */
+
+/* Our Services */
+/* .our {
+      border: 1px solid black;      
+} */
+.services {
+  /* border: 1px solid black; */
+  display: flex;
+  padding-top: 105px;
+}
+.box-girl {
+  /* border: 1px solid black; */
+  margin-left: 160px;
+}
+.box-girl img {
+  width: 450px;
+  height: 420px;
+}
+.box-kualitas {
+  /* border: 1px solid black; */
+  padding-left: 60px;
+  padding-top: 40px;
+}
+.title-services {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px !important;
+  line-height: 36px;
+  width: 40vw;
+  margin-bottom: 24px;
+}
+.desc-services {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  width: 36vw;
+  margin-bottom: 16px;
+}
+.layanan {
+  display: flex;
+}
+.list {
+  padding-right: 16px;
+}
+.image-list {
+  margin-bottom: 18px;
+}
+.keunggulan p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 21.5px;
+}
+/* Our Services End */
+
+/* Why Us */
+.why {
+  /* border: 1px solid black; */
+  padding-top: 60px;
+}
+.title-why {
+  /* border: 1px solid black; */
+  margin: 0.5em 6.9em;
+}
+.title-why h2 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.title-why .question {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.why-us {
+  /* border: 1px solid black; */
+  overflow: hidden;
+  margin: 0.5em 6.9em;
+  display: flex;
+  justify-content: space-between;
+}
+.card-why {
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  padding: 18px;
+  overflow: hidden;
+  width: 245px;
+  height: 210px;
+}
+.card-why h5 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 15px;
+}
+.card-why p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+}
+/* Why Us End */
+
+/* Testimonial */
+.testimonial {
+  /* border: 2px solid black; */
+  padding-top: 100px;
+}
+.item {
+  width: 97%;
+  background-color: rgba(241, 243, 255, 1);
+  border-radius: 8px;
+}
+.card-left {
+  width: 45%;
+  height: 45%;
+  margin: 70px 30px;
+}
+.card-right {
+  text-align: justify;
+  font-size: 12px;
+  padding: 70px 50px 0 0;
+}
+.faq-icon {
+  color: gold;
+  margin-bottom: 5px;
+}
+.Testimonial-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.Testimonial-title h2 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.Testimonial-title p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.owl-carousel .testi-body {
+  display: flex;
+}
+/* Testimonial End */
+
+/* Getting Started */
+.getting {
+  /* border: 1px solid black; */
+  padding: 4em 6.8em 0em 6.8em;
+}
+.get {
+  height: 50vh;
+  border-radius: 13px;
+  background-color: #0d28a6;
+  color: white;
+  padding-top: 60px;
+}
+.get h1 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+}
+.p-blue {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  width: 42%;
+  margin: 0 auto;
+}
+/* Getting Started End */
+
+/* Faq Section */
+.faqs {
+  /* border: 1px solid black; */
+  padding-top: 90px;
+}
+.faq {
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 0px 109px 0px 108px;
+}
+/* .box-faq {
+  border: 1px solid black;
+} */
+.box-faq h1 {
+  /* border: 1px solid black; */
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.box-faq p {
+  /* border: 1px solid black; */
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.box-acordion {
+  /* border: 1px solid black; */
+  padding-left: 85px;
+  width: 67.6%;
+}
+.card {
+  border: 2px solid #f72727;
+  margin-bottom: 16px;
+}
+/* Faq Section End*/
+
+/* Footer */
+/* .footer {
+      border: 1px solid black;
+    } */
+.foot {
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 100px 107px 0px 107px;
+}
+.adress {
+  /* border: 1px solid black; */
+  width: 27%;
+}
+.fitur {
+  /* border: 1px solid black; */
+  margin-left: 60px;
+}
+.social-media {
+  /* border: 1px solid black; */
+  width: 27%;
+  margin-left: 60px;
+}
+.social-media a img {
+  width: 22%;
+  margin-right: -15px;
+}
+.copyright {
+  /* border: 1px solid black; */
+  width: 20%;
+  margin-left: 60px;
+}
+.copyright img {
+  /* border: 1px solid black; */
+  width: 140px;
+  height: 34px;
+  /* margin-left: 60px; */
+}
+/* Footer End */
+
+/* === Page Cari Mobil === */
+.container #cari-mobil {
+  border: 5px solid black;
+  width: 80%;
+}
+
+.container #cm-search {
+  /* border: 1px solid black; */
+  width: 85%;
+  box-shadow: 2px 3px 5px 0px #777777;
+  z-index: 999;
+  margin-top: -40px;
+}
+
+.form-search {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.form-select,
+.form-control {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+input[type='date']::before {
+  content: attr(placeholder);
+  position: absolute;
+  color: #8a8a8a;
+}
+
+input[type='date'] {
+  color: #ffffff;
+}
+
+input[type='date']:focus,
+input[type='date']:valid {
+  color: #666666;
+}
+
+input[type='date']:focus::before,
+input[type='date']:valid::before {
+  content: '';
+}
+
+.tombol-search {
+  margin-top: 35px;
+  /* height: 15px; */
+}
+.tombol-search button {
+  background-color: #5cb85f;
+  padding: 6.5px;
+}
+
+.cm-content {
+  width: 280px !important;
+  height: 580px;
+  border: 1px solid #9999;
+  margin: 20px auto 20px auto;
+}
+
+.cm-content .cars {
+  width: 255px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* Card Cars */
+.all-cars {
+  border: 2px solid black;
+  padding: 0 80px;
+}
+.img-cars {
+  width: 23.5vw;
+  height: 30vh;
+  padding: 15px;
+}
